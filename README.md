@@ -1,4 +1,4 @@
-1.	Algoritma berfikir
+## 1.	Algoritma berfikir
 Cara mengantisipasi dan menanggulangi kemungkinan banyaknya barang kadaluarsa di gudang :
 - Dalam hal penataan barang, barang yang sudah lama atau yang lebih dulu masuk harus ditempatkan di depan agar barang tersebut terjual lebih dahulu.
 - Agendakan pemeriksaan barang secara rutin untuk memastikan tidak ada barang yang kadaluarsa atau yang sudah mendekati tanggal kadaluarsa. Dengan pemeriksaan rutin, braang tak hanya di cek tanggal kadaluarsanya tapi juga stok dari barang tersebut, hal ini memungkinkan penyetokan ulang barang yang akan mau habis.
@@ -6,7 +6,8 @@ Cara mengantisipasi dan menanggulangi kemungkinan banyaknya barang kadaluarsa di
 - Menggunakan program inventaris yang dapat mencatatn dan melacak tanggal kadaluarsa barang. Dengan adanya program, pegawai dapat dengan mudah melacak barang yang sudah mendekati masa kadaluarsa.
 
 
-2.	Penguasaan query
+## 2.	Penguasaan query
+
 a.	Query create table gudang dan barang dengan foreign key dan index. Asumsi field atau kolom mengikuti soal 2 b.
 - Create table gudang
 
@@ -16,6 +17,7 @@ a.	Query create table gudang dan barang dengan foreign key dan index. Asumsi fie
 );``
 
 - Create table barang
+
 ``CREATE TABLE barang ( 
 kode_barang VARCHAR(100) PRIMARY KEY, 
 nama_barang VARCHAR(100) NOT NULL,
